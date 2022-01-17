@@ -2,7 +2,10 @@ from os import getenv
 
 from dotenv import load_dotenv
 
-load_dotenv("my.env")
+if os.path.exists("my.env"):
+    load_dotenv("my.env")
+else:
+load_dotenv()
 
 # VARS
 
