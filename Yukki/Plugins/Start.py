@@ -31,15 +31,15 @@ __MODULE__ = "Essentials"
 __HELP__ = """
 
 
-/start 
+/vcstart 
 - Start the Bot.
 
 
-/help 
+/vchelp 
 - Get Commands Helper Menu.
 
 
-/settings 
+/vcsettings 
 - Get Settings button.
 """
 
