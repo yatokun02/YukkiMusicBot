@@ -31,7 +31,7 @@ __MODULE__ = "Essentials"
 __HELP__ = """
 
 
-/start 
+/vcstart 
 - Start the Bot.
 
 
@@ -94,7 +94,7 @@ async def welcome(_, message: Message):
             return
 
 
-@app.on_message(filters.command(["vchelp", "start"]) & filters.group)
+@app.on_message(filters.command(["vchelp", "vcstart"]) & filters.group)
 @PermissionCheck
 async def useradd(_, message: Message):
     out = start_pannel()
